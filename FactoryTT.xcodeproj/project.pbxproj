@@ -14,6 +14,12 @@
 		CFD185DC1AC8064400B1E8A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD185DB1AC8064400B1E8A6 /* Images.xcassets */; };
 		CFD185DF1AC8064400B1E8A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD185DD1AC8064400B1E8A6 /* LaunchScreen.xib */; };
 		CFD185EB1AC8064400B1E8A6 /* FactoryTTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD185EA1AC8064400B1E8A6 /* FactoryTTTests.m */; };
+		CFD185F61AC8069A00B1E8A6 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD185F51AC8069A00B1E8A6 /* Animal.m */; };
+		CFD185F91AC8070100B1E8A6 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD185F81AC8070100B1E8A6 /* Dog.m */; };
+		CFD185FC1AC8072700B1E8A6 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD185FB1AC8072700B1E8A6 /* Cat.m */; };
+		CFD185FF1AC8076500B1E8A6 /* AnimalFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD185FE1AC8076500B1E8A6 /* AnimalFactory.m */; };
+		CFD186021AC8093900B1E8A6 /* DogFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD186011AC8093900B1E8A6 /* DogFactory.m */; };
+		CFD186051AC8096D00B1E8A6 /* CatFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD186041AC8096D00B1E8A6 /* CatFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		CFD185E41AC8064400B1E8A6 /* FactoryTTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryTTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD185E91AC8064400B1E8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFD185EA1AC8064400B1E8A6 /* FactoryTTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryTTTests.m; sourceTree = "<group>"; };
+		CFD185F41AC8069A00B1E8A6 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		CFD185F51AC8069A00B1E8A6 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		CFD185F71AC8070100B1E8A6 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		CFD185F81AC8070100B1E8A6 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		CFD185FA1AC8072700B1E8A6 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		CFD185FB1AC8072700B1E8A6 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		CFD185FD1AC8076500B1E8A6 /* AnimalFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalFactory.h; sourceTree = "<group>"; };
+		CFD185FE1AC8076500B1E8A6 /* AnimalFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalFactory.m; sourceTree = "<group>"; };
+		CFD186001AC8093900B1E8A6 /* DogFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogFactory.h; sourceTree = "<group>"; };
+		CFD186011AC8093900B1E8A6 /* DogFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogFactory.m; sourceTree = "<group>"; };
+		CFD186031AC8096D00B1E8A6 /* CatFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatFactory.h; sourceTree = "<group>"; };
+		CFD186041AC8096D00B1E8A6 /* CatFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +107,18 @@
 				CFD185DB1AC8064400B1E8A6 /* Images.xcassets */,
 				CFD185DD1AC8064400B1E8A6 /* LaunchScreen.xib */,
 				CFD185CE1AC8064400B1E8A6 /* Supporting Files */,
+				CFD185F41AC8069A00B1E8A6 /* Animal.h */,
+				CFD185F51AC8069A00B1E8A6 /* Animal.m */,
+				CFD185F71AC8070100B1E8A6 /* Dog.h */,
+				CFD185F81AC8070100B1E8A6 /* Dog.m */,
+				CFD185FA1AC8072700B1E8A6 /* Cat.h */,
+				CFD185FB1AC8072700B1E8A6 /* Cat.m */,
+				CFD185FD1AC8076500B1E8A6 /* AnimalFactory.h */,
+				CFD185FE1AC8076500B1E8A6 /* AnimalFactory.m */,
+				CFD186001AC8093900B1E8A6 /* DogFactory.h */,
+				CFD186011AC8093900B1E8A6 /* DogFactory.m */,
+				CFD186031AC8096D00B1E8A6 /* CatFactory.h */,
+				CFD186041AC8096D00B1E8A6 /* CatFactory.m */,
 			);
 			path = FactoryTT;
 			sourceTree = "<group>";
@@ -219,9 +249,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD185FC1AC8072700B1E8A6 /* Cat.m in Sources */,
+				CFD186021AC8093900B1E8A6 /* DogFactory.m in Sources */,
 				CFD185D71AC8064400B1E8A6 /* ViewController.m in Sources */,
+				CFD185F61AC8069A00B1E8A6 /* Animal.m in Sources */,
+				CFD185F91AC8070100B1E8A6 /* Dog.m in Sources */,
 				CFD185D41AC8064400B1E8A6 /* AppDelegate.m in Sources */,
 				CFD185D11AC8064400B1E8A6 /* main.m in Sources */,
+				CFD186051AC8096D00B1E8A6 /* CatFactory.m in Sources */,
+				CFD185FF1AC8076500B1E8A6 /* AnimalFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  Animal.h
 //  FactoryTT
 //
 //  Created by shejun.zhou on 15/3/29.
@@ -7,22 +7,22 @@
 //
 
 /**
- @file          AppDelegate.h
+ @file          Animal.h
  
  @author		shejun.zhou
  @version		1.0
  @date          2015-03-29
  @copyright     shejun.zhou
  
- @brief         工厂模式测试工程
+ @brief         Animal
  */
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface Animal : NSObject
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) NSString *strName;
 
+- (void)laugh;
 
 @end
-
